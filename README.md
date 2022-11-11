@@ -33,7 +33,7 @@ sudo docker container prune
 >- Container aktif tidak bisa dihapus, harus di stop dulu
 
 - `container` apaan ?
-- Docker container adalah wadah untuk menjalankan sesuatu
+- Docker Container adalah wadah untuk menjalankan sesuatu
 
 ### Cek `images` aktif
 ```
@@ -58,7 +58,7 @@ sudo docker image prune -a
 ```
 
 - `images` apaan ?
-- docker images adalah Kumpulan file yang digunakan menjalankan sesuatu
+- Docker Images adalah kumpulan file yang di pull(pull=download) untuk menjalankan sesuatu dan di tampung di `Docker Container`
 
 ### Cek logs docker
 ```
@@ -70,3 +70,6 @@ docker logs -f NAMES
 ```
 sudo  docker system prune
 ```
+
+## Belajar lebih lanjut tentang command Docker
+[KLIK DISINI](https://docs.docker.com/engine/reference/commandline/cli/)
