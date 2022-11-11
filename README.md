@@ -32,8 +32,8 @@ sudo docker container prune
 ```
 >- Container aktif tidak bisa dihapus, harus di stop dulu
 
--- `container` apaan ?
--- Docker container adalah wadah untuk menjalankan sesuatu
+- `container` apaan ?
+- Docker container adalah wadah untuk menjalankan sesuatu
 
 ### Cek `images` aktif
 ```
@@ -57,8 +57,8 @@ sudo docker rmi imagesID
 sudo docker image prune -a
 ```
 
--- `images` apaan ?
--- docker images adalah Kumpulan file yang digunakan menjalankan sesuatu
+- `images` apaan ?
+- docker images adalah Kumpulan file yang digunakan menjalankan sesuatu
 
 ### Cek logs docker
 ```
